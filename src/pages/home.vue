@@ -62,9 +62,9 @@
       "title": "Seguretat",
       "subtitle": "Detalls Tècnics",
       "description": [
-        "L'algoritme {scrypt} és emprat per derivar contrasenyes d'aplicacions i claus d'encriptació/desencriptació. Degut a les fortes propietats criptogràfiques de {scrypt}, el compromís d'una sola aplicació no comprometrà la Contrasenya Mestre, així com tampoc comprometrà cap altra contrasenya d'altres aplicacions.",
+        "L'algorisme {scrypt} és emprat per derivar contrasenyes d'aplicacions i claus d'encriptació/desencriptació. Degut a les fortes propietats criptogràfiques de {scrypt}, el compromís d'una sola aplicació no comprometrà la Contrasenya Mestre, així com tampoc comprometrà cap altra contrasenya d'altres aplicacions.",
         "Els noms de domini (websites), noms d'usuari i revisió són emprats per generar una contrasenya única i segura. En particular, <code>domini/usuari(#revisió)?</code> s'empra com a salt de {scrypt}. Així doncs, cada increment de revisió resultarà en una contrasenya diferent. Això és convenient per a canviar la contrasenya sempre que faci falta.",
-        "Cada bit d'informació que es desa localment i/o remotament (a través de la sincronització opcional d'iCloud) és xifrat amb una clau AES generada a partir de la Contrasenya Mestre amb l'algoritme {scrypt}, emprant <code>derivepass/aes</code> com a salt. Les dades són lavors passades a l'algoritme HMAC-SHA256 per assegurar la integritat de les dades."
+        "Cada bit d'informació que es desa localment i/o remotament (a través de la sincronització opcional d'iCloud) és xifrat amb una clau AES generada a partir de la Contrasenya Mestre amb l'algorisme {scrypt}, emprant <code>derivepass/aes</code> com a salt. Les dades són llavors passades a l'algorisme HMAC-SHA256 per assegurar la integritat de les dades."
       ]
     },
     "privacy": {
